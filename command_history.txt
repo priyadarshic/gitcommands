@@ -227,3 +227,42 @@
   227  cd git_demo/
   228  history
   229  history > command_history.txt
+  230  ls
+  231  git add -A
+  232  git status
+  233  git commit -m "second commit - command history"
+  234  git push
+  235  git status
+  236  cd ../clonedemo/
+  237  ls
+  238  cd gitcommands/
+  239  ls
+  240  ls -lrt
+  241  git pull https://github.com/priyadarshic/gitcommands.git
+  242  ls
+  243  ls -lrt
+  244  cd ../../git_demo/
+  245  git branch featureA
+  246  git branch
+  247  git checkout featureA
+  248  git branch
+  249  git log
+  250  git history
+  251  touch file4.txt
+  252  git status
+  253  git stash -u
+  254  cd ../clonedemo/
+  255  git status
+  256  ls
+  257  cd gitcommands/
+  258  git status
+  259  cd ../../git_demo/
+  260  git status
+  261  ls
+  262  git stash pop
+  263  git status
+  264  git log
+  265  git revert e8f88b0897e762f93a915768884c181448465bb7
+  266  ls -lrt
+  267  git status
+  268  history > command_history.txt
